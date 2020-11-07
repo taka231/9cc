@@ -143,7 +143,7 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    *user_input = argv[1];
+    user_input = argv[1];
     // トークナイズする
     token = tokenize(argv[1]);
 
