@@ -18,6 +18,6 @@ assert() {
 
 assert 0 0
 assert 42 42
-assert 40 "195+37-150+65-107"
+assert 40 "   195 +      37 - 150+65-     107 "
 
 echo OK
